@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}}</title>
+    <meta name="description" content="{{.Description}}">
+    <meta name="author" content="{{.Author}}">
+    {{- if .ExtraMeta}}
+        {{.ExtraMeta}}
+    {{- end}}
+</head>
+<body>
+    <header>
+        <h1>Lytecade</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{- template "content" .}} <!-- This is where page-specific content will go -->
+    </main>
+</body>
+</html>
