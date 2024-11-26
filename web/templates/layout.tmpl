@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{.Title}}</title>
     <meta name="description" content="{{.Description}}">
-    <meta name="author" content="{{.Author}}">
-    {{- if .ExtraMeta}}
-        {{.ExtraMeta}}
-    {{- end}}
+    {{- template "extraMeta" .}}
 </head>
 <body>
     <header>
@@ -21,7 +18,7 @@
         </nav>
     </header>
     <main>
-        {{- template "content" .}} <!-- This is where page-specific content will go -->
+        {{- template "content" .}}
     </main>
 </body>
 </html>
