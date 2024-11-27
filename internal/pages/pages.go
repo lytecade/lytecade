@@ -1,8 +1,10 @@
 package pages
 
 import (
+	"fmt"
 	"html/template"
 	"net/http"
+	"path/filepath"
 )
 
 type PageData struct {
@@ -39,4 +41,15 @@ func HandleAboutPage(w http.ResponseWriter, r *http.Request) {
 		Description:    "This is the about page for LyteCade.",
 	}
 	renderTemplate(w, "web/templates/about.tmpl", data)
+}
+
+func HandleGamePage(w http.ResponseWriter, r *http.Request, gameName string) {
+	sitePath := filepath.Join("./web/sites", gameName, "index.html")
+	fmt.Println("Files for Game:", sitePath)
+}
+
+func HandleGameFolder(siteName, originalPath, resourceFolder string) http.Handler {
+	filePrefix := ("/" + siteName + "/" + resourceFolder)
+	fileServer := http.StripPrefix(filePrefix, http.FileServer(http.Dir(filepath.Join(originalPath, resourceFolder))))
+	return fileServer
 }
