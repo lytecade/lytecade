@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"html/template"
 	"net/http"
+	"path/filepath"
 )
 
 type PageData struct {
@@ -44,7 +45,7 @@ func HandleAboutPage(w http.ResponseWriter, r *http.Request) {
 
 func HandleGamePage(w http.ResponseWriter, r *http.Request, gameName string) {
 	sitePath := filepath.Join("./web/sites", gameName, "index.html")
-	fmt.FPrintf(w, sitePath)
+	fmt.Println("Files for Game:", sitePath)
 }
 
 func HandleGameFolder(siteName, originalPath, resourceFolder string) http.Handler {

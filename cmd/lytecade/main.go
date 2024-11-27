@@ -5,6 +5,8 @@ import (
 )
 
 func main() {
-    routes.RoutesInit()
+    routes.RouteInit()
+    routes.RouteSites()
+    routes.RouteListen()
 }
 
