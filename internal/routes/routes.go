@@ -9,6 +9,10 @@ import (
 	"path/filepath"
 )
 
+var (
+    currentSites []string
+)
+
 func RouteInit() {
 	http.Handle("/static/", http.StripPrefix("/static", http.FileServer(http.Dir("./web/static"))))
 	http.HandleFunc("/", pages.HandleHomePage)
@@ -23,11 +27,14 @@ func RouteSites() {
 		if !info.IsDir() {
 			return nil
 		}
+		fmt.Println(path)
 		currentSite := strings.TrimPrefix(path, "./web/sites")
 		if currentSite == "" {
 			return nil
 		}
-		fmt.Println("Run handle func on: ", fmt.Sprintf("/%s", currentSite))
+        if !contains(currentSites, currentSite) {
+            currentSites = append(currentSites, currentSite)
+        }
 		http.HandleFunc(fmt.Sprintf("/%s", currentSite), func(w http.ResponseWriter, r *http.Request) {
 			pages.HandleGamePage(w, r, currentSite)
 		})
@@ -48,5 +55,19 @@ func RouteListen() {
 		fmt.Println("Error starting server:", err)
 	}
 }
+
+func GetRouteSites() []string {
+    return append([]string(nil), currentSites...)
+}
+
+func contains(setSites []string, siteValue string) bool {
+    for _, currentChar := range setSites {
+        if currentChar == siteValue {
+            return true
+        }
+    }
+    return false
+}
+
 
 
