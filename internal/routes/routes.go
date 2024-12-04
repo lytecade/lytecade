@@ -28,18 +28,19 @@ func RouteSites() {
 			return nil
 		}
 		fmt.Println(path)
-		currentSite := strings.TrimPrefix(path, "./web/sites")
+		currentSite := trimMultiplePrefixes(path, []string{"./web/sites","web/sites"})
 		if currentSite == "" {
 			return nil
 		}
         if !contains(currentSites, currentSite) {
             currentSites = append(currentSites, currentSite)
         }
-		http.HandleFunc(fmt.Sprintf("/%s", currentSite), func(w http.ResponseWriter, r *http.Request) {
+		fmt.Println(fmt.Sprintf("%s", currentSite))
+		http.HandleFunc(fmt.Sprintf("%s", currentSite), func(w http.ResponseWriter, r *http.Request) {
 			pages.HandleGamePage(w, r, currentSite)
 		})
-		http.Handle("/" + currentSite + "/assets/", pages.HandleGameFolder(currentSite, path, "assets"))
-		http.Handle("/" + currentSite + "/src/", pages.HandleGameFolder(currentSite, path, "src"))
+		http.Handle(fmt.Sprintf("%s/assets/", currentSite), pages.HandleGameFolder(currentSite, path, "assets"))
+		http.Handle(fmt.Sprintf("%s/src/", currentSite), pages.HandleGameFolder(currentSite, path, "src"))
 
 		return nil
 	})
@@ -60,6 +61,15 @@ func GetRouteSites() []string {
     return append([]string(nil), currentSites...)
 }
 
+func trimMultiplePrefixes(s string, prefixes []string) string {
+    for _, prefix := range prefixes {
+        if strings.HasPrefix(s, prefix) {
+            return strings.TrimPrefix(s, prefix)
+        }
+    }
+    return s 
+}
+
 func contains(setSites []string, siteValue string) bool {
     for _, currentChar := range setSites {
         if currentChar == siteValue {
@@ -68,6 +78,5 @@ func contains(setSites []string, siteValue string) bool {
     }
     return false
 }
-
 
 
