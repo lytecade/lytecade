@@ -49,7 +49,7 @@ func HandleGamePage(w http.ResponseWriter, r *http.Request, gameName string) {
 }
 
 func HandleGameFolder(siteName, originalPath, resourceFolder string) http.Handler {
-	filePrefix := ("/" + siteName + "/" + resourceFolder)
+	filePrefix := (siteName + "/" + resourceFolder)
 	fileServer := http.StripPrefix(filePrefix, http.FileServer(http.Dir(filepath.Join(originalPath, resourceFolder))))
 	return fileServer
 }
