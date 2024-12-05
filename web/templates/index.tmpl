@@ -1,6 +1,11 @@
 {{define "content"}}
 <h2>Welcome to the Home Page</h2>
 <p>This is the homepage of my website.</p>
+<ul>
+    {{range .SiteList}}
+        <li>{{.}}</li>
+    {{end}}
+</ul>
 {{end}}
 {{define "extraMeta"}}
 <meta property="og:title" content="Home - My Website">

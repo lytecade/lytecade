@@ -10,6 +10,7 @@ import (
 type PageData struct {
 	Title          string
 	Description    string
+	SiteList	   []string
 }
 
 func renderTemplate(w http.ResponseWriter, tmpl string, data PageData) {
@@ -27,10 +28,11 @@ func renderTemplate(w http.ResponseWriter, tmpl string, data PageData) {
 	}
 }
 
-func HandleHomePage(w http.ResponseWriter, r *http.Request) {
+func HandleHomePage(w http.ResponseWriter, r *http.Request, siteList []string) {
 	data := PageData {
 		Title:          "Home - LyteCade",
 		Description:    "This is the homepage for LyteCade.",
+		SiteList:		siteList,
 	}
 	renderTemplate(w, "web/templates/index.tmpl", data)
 }

@@ -15,7 +15,9 @@ var (
 
 func RouteInit() {
 	http.Handle("/static/", http.StripPrefix("/static", http.FileServer(http.Dir("./web/static"))))
-	http.HandleFunc("/", pages.HandleHomePage)
+	http.HandleFunc("/",  func(w http.ResponseWriter, r *http.Request) {
+		pages.HandleHomePage(w, r, currentSites)
+	})
 	http.HandleFunc("/about", pages.HandleAboutPage)
 }
 
