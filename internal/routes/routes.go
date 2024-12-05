@@ -16,7 +16,7 @@ var (
 func RouteInit() {
 	http.Handle("/static/", http.StripPrefix("/static", http.FileServer(http.Dir("./web/static"))))
 	http.HandleFunc("/",  func(w http.ResponseWriter, r *http.Request) {
-		pages.HandleHomePage(w, r, currentSites)
+		pages.HandleHomePage(w, r, GetRouteSites())
 	})
 	http.HandleFunc("/about", pages.HandleAboutPage)
 }
@@ -60,7 +60,14 @@ func RouteListen() {
 }
 
 func GetRouteSites() []string {
-    return append([]string(nil), currentSites...)
+	var siteNameArray []string
+	for _, path := range currentSites {
+		parts := strings.Split(path, "/")
+		if !contains(siteNameArray, parts[1]) {
+			siteNameArray = append(siteNameArray, parts[1])
+		}
+	}
+    return siteNameArray
 }
 
 func trimMultiplePrefixes(s string, prefixes []string) string {
