@@ -1,7 +1,6 @@
 package pages
 
 import (
-    "fmt"
     "html/template"
     "net/http"
     "path/filepath"
@@ -20,11 +19,25 @@ func renderTemplate(w http.ResponseWriter, tmpl string, data PageData) {
     }
     t, err := template.ParseFiles(tmplFiles...)
     if err != nil {
-        http.Error(w, "Error parsing templates: "+err.Error(), http.StatusInternalServerError)
+        http.Error(w, "Error parsing templates: " + err.Error(), http.StatusInternalServerError)
         return
     }
     if err := t.Execute(w, data); err != nil {
-        http.Error(w, "Error executing template: "+err.Error(), http.StatusInternalServerError)
+        http.Error(w, "Error executing template: " + err.Error(), http.StatusInternalServerError)
+    }
+}
+
+func renderPage(w http.ResponseWriter, filePath string) {
+    tmplFiles := []string{
+        filePath,          
+    }
+    sitePage, err := template.ParseFiles(tmplFiles...)
+    if err != nil {
+        http.Error(w, "Error parsing templates: " + err.Error(), http.StatusInternalServerError)
+        return
+    }
+    if err := sitePage.Execute(w, nil); err != nil {
+        http.Error(w, "Error executing template: " + err.Error(), http.StatusInternalServerError)
     }
 }
 
@@ -47,7 +60,7 @@ func HandleAboutPage(w http.ResponseWriter, r *http.Request) {
 
 func HandleGamePage(w http.ResponseWriter, r *http.Request, gameName string) {
     sitePath := filepath.Join("./web/sites", gameName, "index.html")
-    fmt.Println("Files for Game:", sitePath)
+    renderPage(w, sitePath)
 }
 
 func HandleGameFolder(siteName, originalPath, resourceFolder string) http.Handler {
