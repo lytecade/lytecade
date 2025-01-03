@@ -50,14 +50,6 @@ func HandleHomePage(w http.ResponseWriter, r *http.Request, siteList []string) {
     renderTemplate(w, "web/templates/index.tmpl", data)
 }
 
-func HandleAboutPage(w http.ResponseWriter, r *http.Request) {
-    data := PageData {
-        Title:          "About - LyteCade",
-        Description:    "This is the about page for LyteCade.",
-    }
-    renderTemplate(w, "web/templates/about.tmpl", data)
-}
-
 func HandleGamePage(w http.ResponseWriter, r *http.Request, gameName string) {
     sitePath := filepath.Join("./web/sites", gameName, "index.html")
     renderPage(w, sitePath)

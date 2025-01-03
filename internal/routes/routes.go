@@ -18,7 +18,6 @@ func RouteInit() {
     http.HandleFunc("/",  func(w http.ResponseWriter, r *http.Request) {
         pages.HandleHomePage(w, r, GetRouteSites())
     })
-    http.HandleFunc("/about", pages.HandleAboutPage)
 }
 
 func RouteSites() {
