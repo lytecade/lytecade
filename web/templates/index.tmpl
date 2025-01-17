@@ -1,13 +1,23 @@
 {{define "content"}}
-    <div style="text-align:center;">    
-        <h2>Welcome to the Open Source HTML5 Games Showcase!</h2>
-        <p>Explore a curated collection of fun, interactive, and completely free-to-play HTML5 games! This site is dedicated to showcasing high-quality open-source games built using the latest HTML5 technologies, making them accessible across a wide range of devices and platforms.</p>
+    <div class="cards">
+        <div class="card" style="text-align:center;">
+            <h2>Welcome to the Open Source HTML5 Games Showcase!</h2>
+        </div>
     </div>
-    <ul>
+    <div class="cards">
+        <div class="card" style="text-align:center;">
+            <p>Explore a curated collection of fun, interactive, and completely free-to-play HTML5 games! This site is dedicated to showcasing high-quality open-source games built using the latest HTML5 technologies, making them accessible across a wide range of devices and platforms.</p>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <div class="cards">
         {{range .SiteList}}
-            <li><a href="{{.}}">{{.}}</a></li>
+            <div class="card" style="text-align:center;">
+                <a href="{{.}}">{{.}}</a>
+            </div>
         {{end}}
-    </ul>
+    </div>
 {{end}}
 {{define "extraMeta"}}
     <meta property="og:title" content="Home - My Website">
