@@ -15,6 +15,7 @@ type PageData struct {
 func renderTemplate(w http.ResponseWriter, tmpl string, data PageData) {
     tmplFiles := []string{
         "web/templates/layout.tmpl", 
+        "web/templates/style.tmpl", 
         tmpl,          
     }
     t, err := template.ParseFiles(tmplFiles...)
