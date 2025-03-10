@@ -1,21 +1,30 @@
 {{define "content"}}
-    <div class="cards">
-        <div class="card" style="text-align:center;">
-            <h2>Welcome to the Open Source HTML5 Games Showcase!</h2>
+    <br/>
+    <article class="border medium no-padding center-align middle-align">
+        <div class="padding">
+            <h3>Welcome to the Open Source HTML5 Games Showcase!</h3>
+            <div>
+                Explore a curated collection of fun, interactive, and completely free-to-play HTML5 games! This site is dedicated to showcasing high-quality open-source games built using the latest HTML5 technologies, making them accessible across a wide range of devices and platforms.
+            </div>
+        </div>
+    </article>
+    <div class="grid">
+       <div class="s12 m6 l3"> 
         </div>
     </div>
-    <div class="cards">
-        <div class="card" style="text-align:center;">
-            <p>Explore a curated collection of fun, interactive, and completely free-to-play HTML5 games! This site is dedicated to showcasing high-quality open-source games built using the latest HTML5 technologies, making them accessible across a wide range of devices and platforms.</p>
-        </div>
-    </div>
-    <br/>
-    <br/>
-    <div class="cards">
+    <div class="grid">
         {{range .SiteList}}
-            <div class="card" style="text-align:center;">
-                <img src="https://placehold.co/600x400" alt="placeholder" style="width:100%">
-                <a href="{{.}}">{{.}}</a>
+            <div class="s12 m6 l4">
+                <article class="no-padding border">
+                    <img class="responsive small" src="https://placehold.co/600x400">
+                    <div class="padding">
+                        <h5><a href="{{.}}">{{.}}</a></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <nav>
+                            <button>Button</button>
+                        </nav>
+                    </div>
+                </article>
             </div>
         {{end}}
     </div>
@@ -24,4 +33,3 @@
     <meta property="og:title" content="Home - My Website">
     <meta property="og:description" content="Welcome to the homepage of My Website">
 {{end}}
-

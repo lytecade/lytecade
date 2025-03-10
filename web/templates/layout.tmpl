@@ -7,28 +7,17 @@
         <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
         <meta name="description" content="{{.Description}}">
         {{- template "extraMeta" .}}
-        <style>
-            .card {
-                padding: 1rem;
-                height: 4rem;
-            }
-            .cards {
-                max-width: 1200px;
-                margin: 0 auto;
-                display: grid;
-                gap: 1rem;
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            }
-        </style>
+        {{- template "extraStyle" .}}
     </head>
-    <body style="font-family:Arial,Helvetica,sans-serif;margin:0;">
-        <header style="background:#31a2f2;color:white;">
-            <div class="cards"> 
-                <h1 class="card" style="font-size:40px;padding-bottom:80px;padding-top:80px;text-align:center;">LYTECADE</h1> 
-            </div>
+    <body>
+        <header>
+            <nav>
+                <h5 class="max center-align">LYTECADE</h5>
+            </nav>
         </header>
-        <main>
+        <main class="responsive">
             {{- template "content" .}}
         </main>
+        {{- template "extraScript" .}}
     </body>
 </html>
