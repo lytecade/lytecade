@@ -11,7 +11,7 @@ languages:
     title: "LyteCade"
     subtitle: "A collection of free-to-play HTML5 games"
     keywords: ""
-    copyright: ""
+    copyright: "LyteCade"
     params:
       logo:
         logoText: "LyteCade"

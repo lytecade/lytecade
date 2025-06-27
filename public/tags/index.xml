@@ -6,6 +6,7 @@
     <description>Recent content in Tags on LyteCade</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <copyright>LyteCade</copyright>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
