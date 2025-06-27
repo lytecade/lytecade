@@ -9,3 +9,4 @@ Explore a curated collection of fun, interactive, and completely free-to-play HT
 - **Cross-platform support**: Play directly in your browser, on any device, without the need for additional plugins or downloads.
 
 This is a work in progress. More coming soon!
+
