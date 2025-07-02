@@ -1,0 +1,3 @@
+[submodule "static/tempo-stack"]
+	path = static/tempo-stack
+	url = https://github.com/lytecade/tempo-stack.git
