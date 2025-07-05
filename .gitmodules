@@ -1,3 +1,6 @@
 [submodule "static/tempo-stack"]
 	path = static/tempo-stack
 	url = https://github.com/lytecade/tempo-stack.git
+[submodule "static/bounce-mallow"]
+	path = static/bounce-mallow
+	url = https://github.com/lytecade/bounce-mallow.git
