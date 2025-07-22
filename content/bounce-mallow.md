@@ -24,7 +24,5 @@ title: 'Bounce Mallow'
 
 ## Play!
 
-- Note: Fullscreen available!
-
-{{< iframe src="/games/bounce-mallow" >}}
+{{< iframe src="/modules/bounce-mallow" >}}
 

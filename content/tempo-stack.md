@@ -31,7 +31,5 @@ The score is based on the number of blocks successfully stacked. Each successful
 
 ## Play!
 
-- Note: Fullscreen available!
-
-{{< iframe src="/games/tempo-stack" >}}
+{{< iframe src="/modules/tempo-stack" >}}
 
