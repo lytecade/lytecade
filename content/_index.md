@@ -2,6 +2,7 @@
 date: '2025-06-27T01:16:56-04:00'
 draft: false
 title: 'LET THE GAMES BEGIN!'
+description: 'LyteCade is a collection of fun, interactive, and completely free-to-play HTML5 games!'
 ---
 
 ***
