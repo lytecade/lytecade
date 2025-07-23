@@ -2,6 +2,7 @@
 date: '2025-07-14T01:16:56-04:00'
 draft: false
 title: 'Bounce Mallow'
+description: 'An exciting and fast-paced endless platformer where you control a bouncy marshmallow navigating a series of perilous platforms.'
 ---
 
 **Bounce Mallow** is an exciting and fast-paced endless platformer where you control a bouncy marshmallow navigating a series of perilous platforms. The game challenges your reflexes and timing as you jump your way through an endless level filled with obstacles, cliffs, and enemies.
