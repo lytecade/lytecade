@@ -8,6 +8,16 @@ module:
 
 menu:
   main:
+    - name: Games
+      pageRef: /games
+      weight: 2
+    - name: About
+      pageRef: /about
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
     - name: GitHub
       weight: 5
       url: "https://github.com/lytecade"
@@ -23,8 +33,6 @@ params:
       dark: images/logo-dark.svg
       link: /
       width: 51
-  search:
-    enable: false
   theme:
     default: system
     displayToggle: true
