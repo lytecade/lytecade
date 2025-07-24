@@ -9,7 +9,7 @@ description: 'An exciting and fast-paced endless platformer where you control a 
 
 {{< iframe src="/modules/bounce-mallow" >}}
 
-## How to Play
+## Gameplay
 
 - **Objective**: The goal of the game is simple — survive as long as possible by jumping over cliffs, avoiding enemies, and evading hazardous obstacles.
 - **Controls**:
@@ -18,6 +18,8 @@ description: 'An exciting and fast-paced endless platformer where you control a 
 - **Lives**: You have 5 chances (lives) to avoid the dangers. Each time you collide with an obstacle or fall off a platform, you lose a life.
 - **Scoring**: Your score increases as you survive longer. The game ends when you run out of lives, and your score is tallied.
 
+## Extras
 
-
-
+{{< cards >}}
+  {{< card link="https://github.com/lytecade/bounce-mallow" title="View on GitHub" icon="github" >}}
+{{< /cards >}}

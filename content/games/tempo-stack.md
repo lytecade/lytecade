@@ -17,3 +17,8 @@ description: 'An HTML5-based game where players control a moving block, with the
   - **Mobile**: Tap the screen to stop the block.
 - **Scoring**: The score is based on the number of blocks successfully stacked. Each successfully placed block adds one point to the score. The game ends when the stack space is filled, or when a block fails to stack correctly.
 
+## Extras
+
+{{< cards >}}
+  {{< card link="https://github.com/lytecade/tempo-stack" title="View on GitHub" icon="github" >}}
+{{< /cards >}}
