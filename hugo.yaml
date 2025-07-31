@@ -29,8 +29,8 @@ params:
     displayTitle: false
     displayLogo: true
     logo:
-      path: images/logo.svg
-      dark: images/logo-dark.svg
+      path: images/lc-logo.webp
+      dark: images/lc-logo-dark.webp
       link: /
       width: 51
   theme:
