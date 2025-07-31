@@ -11,8 +11,8 @@ Explore a curated collection of fun, interactive, and completely free-to-play HT
 ## Latest Games
 
 {{< cards >}}
-  {{< card link="/games/bounce-mallow" title="Bounce Mallow" image="https://placehold.co/600x400?text=Bounce+Mallow" subtitle="Play Bounce Mallow! A game where the player is a bouncing marshmallow and must avoid the obstacles." >}}
-  {{< card link="/games/tempo-stack" title="Tempo Stack" image="https://placehold.co/600x400?text=Tempo+Stack" subtitle="Play Tempo Stack! A game where the player must stack blocks at an increading pace for a high score." >}}
+  {{< card link="/games/bounce-mallow" title="Bounce Mallow" image="/images/thumb_bouncemallow.webp" subtitle="Play Bounce Mallow! A game where the player is a bouncing marshmallow and must avoid the obstacles." >}}
+  {{< card link="/games/tempo-stack" title="Tempo Stack" image="/images/thumb_tempostack.webp" subtitle="Play Tempo Stack! A game where the player must stack blocks at an increading pace for a high score." >}}
 {{< /cards >}}
 
 ## What You Can Find
