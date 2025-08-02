@@ -13,6 +13,6 @@ Our mission is clear: bring back the joy of gaming for its own sake, creating a 
 
 
 {{< cards >}}
-  {{< card link="/games" title="Return Home" icon="home" >}}
+  {{< card link="/" title="Return Home" icon="home" >}}
   {{< card link="/games" title="View Games" icon="sparkles" >}}
 {{< /cards >}}

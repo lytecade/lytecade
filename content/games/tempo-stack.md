@@ -21,6 +21,6 @@ description: 'An HTML5-based game where players control a moving block, with the
 
 {{< cards >}}
   {{< card link="https://github.com/lytecade/tempo-stack" title="View on GitHub" icon="github" >}}
-  {{< card link="/games" title="Return Home" icon="home" >}}
+  {{< card link="/" title="Return Home" icon="home" >}}
   {{< card link="/games" title="Return to Games" icon="sparkles" >}}
 {{< /cards >}}
