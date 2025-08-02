@@ -25,6 +25,8 @@ menu:
         icon: github
 
 params:
+  page:
+    width: wide
   navbar:
     displayTitle: false
     displayLogo: true

@@ -22,4 +22,6 @@ description: 'An exciting and fast-paced endless platformer where you control a 
 
 {{< cards >}}
   {{< card link="https://github.com/lytecade/bounce-mallow" title="View on GitHub" icon="github" >}}
+  {{< card link="/" title="Return Home" icon="home" >}}
+  {{< card link="/games" title="Return to Games" icon="sparkles" >}}
 {{< /cards >}}
