@@ -8,7 +8,7 @@ cascade:
 
 Explore a curated collection of fun, interactive, and completely free-to-play HTML5 games! This site is dedicated to showcasing high-quality open-source games built using the latest HTML5 technologies, making them accessible across a wide range of devices and platforms. 
 
-## Latest Games
+## Featured Games
 
 {{< cards >}}
   {{< card link="/games/bounce-mallow" title="Bounce Mallow" image="/images/thumb_bouncemallow.webp" subtitle="Play Bounce Mallow! A game where the player is a bouncing marshmallow and must avoid the obstacles." >}}
