@@ -19,19 +19,22 @@ menu:
     - name: About
       pageRef: /about
       weight: 3
-    - name: Search
-      weight: 4
-      params:
-        type: search
     - name: GitHub
       weight: 5
       url: "https://github.com/lytecade"
       params:
         icon: github
+  sidebar:
+    - name: Games
+      pageRef: /games
+      weight: 2
+    - name: About
+      pageRef: /about
+      weight: 3
 
 params:
   page:
-    width: wide
+    width: normal
   navbar:
     displayTitle: false
     displayLogo: true
@@ -48,3 +51,5 @@ params:
     displayCopyright: true
     displayPoweredBy: false
     width: normal
+  search:
+    enable: false

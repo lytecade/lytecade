@@ -7,7 +7,7 @@ description: 'LyteCade is a collection of fun, interactive, and completely free-
 ---
 
 <br/>
-LyteCade is a curated collection of HTML5 games dedicated to providing a truly ad-free and purchase-free gaming experience. Our objective is simple: to host games that are easy to start, enjoyable to play in short bursts, and welcoming for all ages without any interruptions or pressures to spend money. You can read more [here](/about) about who we are!
+LyteCade is a curated collection of HTML5 games dedicated to providing a truly ad-free and purchase-free gaming experience. Our objective is simple: to host games that are easy to start, enjoyable to play in short bursts, and welcoming for all ages without any interruptions or pressures to spend money. 
 
 ## Latest Games
 
