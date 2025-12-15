@@ -6,6 +6,11 @@ module:
   imports:
     - path: github.com/imfing/hextra 
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 menu:
   main:
     - name: Games
@@ -31,8 +36,8 @@ params:
     displayTitle: false
     displayLogo: true
     logo:
-      path: images/lc-logo.webp
-      dark: images/lc-logo-dark.webp
+      path: images/lc-logo.svg
+      dark: images/lc-logo-dark.svg
       link: /
       width: 51
   theme:
