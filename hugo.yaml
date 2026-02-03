@@ -33,8 +33,6 @@ menu:
       weight: 3
 
 params:
-  page:
-    width: normal
   navbar:
     displayTitle: false
     displayLogo: true
@@ -50,6 +48,5 @@ params:
     enable: true
     displayCopyright: true
     displayPoweredBy: false
-    width: normal
   search:
     enable: false

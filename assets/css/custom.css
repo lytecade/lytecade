@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 :root {
-    --hx-text-base: 1.2rem;
-    --hx-font-sans: "Merriweather Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --hx-font-sans: monospace, system-ui, sans-serif;
 }
 
 .content :where(a):not(:where([class~=not-prose],[class~=not-prose] *)) {
