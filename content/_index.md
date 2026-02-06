@@ -27,3 +27,9 @@ Simply click on any game card to instantly launch and enjoy a variety of engagin
 {{< cards >}}
   {{< card link="/games" title="View More Games!" icon="sparkles" >}}
 {{< /cards >}}
+
+## About Us
+
+We believe games should be accessible and appropriate for everyone. Our library is carefully curated to ensure every title maintains a high standard of simplicity in gameplay and content, so parents can feel confident and players of any age can find something to enjoy. LyteCade exists for the pure enjoyment of gaming—not to drive sales or capture your wallet, but to offer a genuine space where play is valued for its own sake.
+
+Our mission is clear: bring back the joy of gaming for its own sake, creating a safe and delightful environment that welcomes everyone. Whether you have a minute or an hour, LyteCade is here when you need a quick, straightforward, and satisfying play session—no strings attached.
