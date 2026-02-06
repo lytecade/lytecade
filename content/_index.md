@@ -6,8 +6,14 @@ toc: false
 description: 'LyteCade is a collection of fun, interactive, and completely free-to-play HTML5 games!'
 ---
 
-<br/>
+{{< hextra/hero-headline >}}                                                                                                                      
+Explore Free & Open Source   
+HTML5 Games                                                                                                                        
+{{< /hextra/hero-headline >}}
+
+{{< hextra/hero-subtitle >}}
 LyteCade is a curated collection of HTML5 games dedicated to providing a truly ad-free and purchase-free gaming experience. Our objective is simple: to host games that are easy to start, enjoyable to play in short bursts, and welcoming for all ages without any interruptions or pressures to spend money. 
+{{< /hextra/hero-subtitle >}}
 
 ## Latest Games
 
