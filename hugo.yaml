@@ -13,12 +13,6 @@ markup:
 
 menu:
   main:
-    - name: Games
-      pageRef: /games
-      weight: 2
-    - name: About
-      pageRef: /about
-      weight: 3
     - name: GitHub
       weight: 5
       url: "https://github.com/lytecade"
@@ -28,9 +22,6 @@ menu:
     - name: Games
       pageRef: /games
       weight: 2
-    - name: About
-      pageRef: /about
-      weight: 3
 
 params:
   navbar:
@@ -49,4 +40,6 @@ params:
     displayCopyright: true
     displayPoweredBy: false
   search:
+    enable: false
+  sidebar:
     enable: false

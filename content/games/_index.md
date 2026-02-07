@@ -2,6 +2,8 @@
 breadcrumbs: false
 title: 'Games'
 toc: false
+sidebar:
+  exclude: true
 description: 'Explore a curated collection of fun, interactive, and completely free-to-play HTML5 games!'
 cascade:
   type: docs
