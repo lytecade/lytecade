@@ -8,6 +8,8 @@ toc: false
 Bounce Mallow
 {{< /hextra/hero-headline >}}
 
+***
+
 An exciting and fast-paced endless platformer where you control a bouncy marshmallow navigating a series of perilous platforms. The game challenges your reflexes and timing as you jump your way through an endless level filled with obstacles, cliffs, and enemies.
 
 {{< iframe src="/modules/bounce-mallow" >}}
@@ -24,6 +26,6 @@ An exciting and fast-paced endless platformer where you control a bouncy marshma
 ## Links
 
 {{< cards >}}
-  {{< card link="https://github.com/lytecade/bounce-mallow" title="View on GitHub" icon="github" >}}
+  {{< card link="https://github.com/lytecade/bounce-mallow" title="View on Github" icon="github" >}}
   {{< card link="/" title="Return Home" icon="home" >}}
 {{< /cards >}}

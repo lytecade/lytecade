@@ -8,6 +8,8 @@ toc: false
 Tempo Stack
 {{< /hextra/hero-headline >}}
 
+***
+
 An HTML5-based game where players control a moving block, with the objective of stacking each new block on top of the previous one. The block moves back and forth between two walls, changing directions when it hits a wall. Players must time their actions to stop the block at the right moment, aligning it precisely on top of the stack.
 
 {{< iframe src="/modules/tempo-stack" >}}
@@ -23,6 +25,6 @@ An HTML5-based game where players control a moving block, with the objective of 
 ## Links
 
 {{< cards >}}
-  {{< card link="https://github.com/lytecade/tempo-stack" title="View on GitHub" icon="github" >}}
+  {{< card link="https://github.com/lytecade/tempo-stack" title="View on Github" icon="github" >}}
   {{< card link="/" title="Return Home" icon="home" >}}
 {{< /cards >}}
