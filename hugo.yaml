@@ -13,15 +13,16 @@ markup:
 
 menu:
   main:
+    - name: Home
+      weight: 1
+      url: "/"
+      params:
+        icon: home
     - name: GitHub
       weight: 5
       url: "https://github.com/lytecade"
       params:
         icon: github
-  sidebar:
-    - name: Games
-      pageRef: /games
-      weight: 2
 
 params:
   navbar:
