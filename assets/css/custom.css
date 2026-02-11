@@ -1,5 +1,9 @@
 :root {
-    --hx-font-sans: monospace, system-ui, sans-serif;
+    --hx-font-sans: system-ui, sans-serif;
+}
+
+.hx\:bg-gray-100 {
+    background-color: var(--hx-color-white);
 }
 
 .content :where(a):not(:where([class~=not-prose],[class~=not-prose] *)) {
@@ -33,3 +37,7 @@
     letter-spacing: normal;
 }
 
+.content :where(hr):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    margin-block: calc(var(--hx-spacing));
+    border-color: var(--hx-color-gray-200);
+}
