@@ -18,8 +18,8 @@ LyteCade is a curated collection of HTML5 games dedicated to providing a truly a
 Simply click on any game card to instantly launch and enjoy a variety of engaging games directly in your browser—no downloads or installations needed. Dive into a seamless gaming experience designed for fun and accessibility, all powered by modern web technologies.
 
 {{< cards >}}
-  {{< card link="/bounce-mallow" title="Bounce Mallow" image="/images/thumbbouncemallow.webp" >}}
-  {{< card link="/tempo-stack" title="Tempo Stack" image="/images/thumbtempostack.webp" >}}
+  {{< card link="/bounce-mallow" title="Bounce Mallow" image="/images/thumbbouncemallow.webp" subtitle="An exciting and fast-paced endless platformer where you control a bouncy marshmallow navigating a series of perilous platforms." >}}
+  {{< card link="/tempo-stack" title="Tempo Stack" image="/images/thumbtempostack.webp" subtitle="An game where players control a moving block, with the objective of stacking each new block on top of the previous one." >}}
 {{< /cards >}}
 
 ## About Us
