@@ -1,46 +1,55 @@
 baseURL: https://lytecade.com/
-languageCode: en-us
+languageCode: en-US
 title: LyteCade
 
 module:
   imports:
-    - path: github.com/imfing/hextra 
+    - path: github.com/dylanhernandez/lytestoa
+  mounts:
+    - source: content
+      target: content
+    - source: content/games
+      target: content/play
+    - source: static
+      target: static
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
-menu:
-  main:
-    - name: Home
-      weight: 1
-      url: "/"
-      params:
-        icon: home
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/lytecade"
-      params:
-        icon: github
+taxonomies:
+  genre: genres
+  tag: tags
 
 params:
-  navbar:
-    displayTitle: false
-    displayLogo: true
-    logo:
-      path: images/lc-logo.svg
-      dark: images/lc-logo-dark.svg
-      link: /
-      width: 51
-  theme:
-    default: system
-    displayToggle: true
-  footer:
-    enable: true
-    displayCopyright: true
-    displayPoweredBy: false
-  search:
-    enable: false
-  sidebar:
-    enable: false
+  subtitle: "Free & Open Source HTML5 Games"
+  description: "LyteCade is a curated collection of fun, interactive, and completely free-to-play open source HTML5 games."
+  tagline: "LyteCade is a curated collection of HTML5 games dedicated to providing a truly ad-free and purchase-free gaming experience."
+  use_logo: true
+  logo: "images/lc-logo.svg"
+  logo_text: ""
+  github_url: "https://github.com/lytecade"
+  footer_text: "Website design and branding of lytecade.com copyrighted by KyroLyte. Developed by KyroLyte."
+
+menus:
+  main:
+    - name: Home
+      url: "/"
+      weight: 10
+    - name: Games
+      url: "/#games"
+      weight: 20
+    - name: About
+      url: "/#about"
+      weight: 30
+    - name: GitHub
+      url: "https://github.com/lytecade"
+      weight: 40
+
+cascade:
+  - build:
+      list: never
+      render: never
+    target:
+      path: /play
+      kind: section
+  - build:
+      list: never
+    target:
+      path: /play/**
