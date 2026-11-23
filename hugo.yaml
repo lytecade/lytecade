@@ -22,8 +22,9 @@ params:
   description: "LyteCade is a curated collection of fun, interactive, and completely free-to-play open source HTML5 games."
   tagline: "LyteCade is a curated collection of HTML5 games dedicated to providing a truly ad-free and purchase-free gaming experience."
   use_logo: true
-  logo: "images/lc-logo.svg"
+  logo: "logo.webp"
   logo_text: ""
+  og_image: "logo.webp"
   github_url: "https://github.com/lytecade"
   footer_text: "Website design and branding of lytecade.com copyrighted by KyroLyte. Developed by KyroLyte."
 
