@@ -1,7 +1,7 @@
 ---
 title: "LyteCade"
 hero_title: "Explore Free & Open Source HTML5 Games"
-tagline: "LyteCade is a curated collection of HTML5 games dedicated to providing a truly ad-free and purchase-free gaming experience. Our objective is simple: to host games that are easy to start, enjoyable to play in short bursts, and welcoming for all ages without any interruptions or pressures to spend money."
+tagline: "LyteCade is a curated collection of family-friendly HTML5 games designed for quick, uninterrupted play with zero ads or distractions."
 games_title: "Our Games"
 about_title: "About Us"
 description: "LyteCade is a curated collection of fun, interactive, and completely free-to-play open source HTML5 games."
