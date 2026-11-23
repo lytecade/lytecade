@@ -1,5 +1,5 @@
 baseURL: https://lytecade.com/
-languageCode: en-US
+locale: en-US
 title: LyteCade
 
 module:
