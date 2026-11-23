@@ -26,7 +26,7 @@ params:
   logo_text: ""
   og_image: "logo.webp"
   github_url: "https://github.com/lytecade"
-  footer_text: "Website design and branding of lytecade.com copyrighted by KyroLyte. Developed by KyroLyte."
+  footer_text: "Website design and branding of lytecade.com copyrighted by Dylan Hernandez. Developed by Dylan Hernandez."
 
 menus:
   main:
