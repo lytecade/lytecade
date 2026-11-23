@@ -1,28 +1,11 @@
 ---
-title: 'LyteCade | Free & Open Source HTML5 Games'
-description: 'LyteCade is a collection of fun, interactive, and completely free-to-play HTML5 games!'
-toc: false
+title: "LyteCade"
+hero_title: "Explore Free & Open Source HTML5 Games"
+tagline: "LyteCade is a curated collection of HTML5 games dedicated to providing a truly ad-free and purchase-free gaming experience. Our objective is simple: to host games that are easy to start, enjoyable to play in short bursts, and welcoming for all ages without any interruptions or pressures to spend money."
+games_title: "Our Games"
+about_title: "About Us"
+description: "LyteCade is a curated collection of fun, interactive, and completely free-to-play open source HTML5 games."
 ---
-
-{{< hextra/hero-headline >}}                                                                                                                      
-Explore Free & Open Source   
-HTML5 Games                                                                                                                        
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-LyteCade is a curated collection of HTML5 games dedicated to providing a truly ad-free and purchase-free gaming experience. Our objective is simple: to host games that are easy to start, enjoyable to play in short bursts, and welcoming for all ages without any interruptions or pressures to spend money. 
-{{< /hextra/hero-subtitle >}}
-
-## Our Games
-
-Simply click on any game card to instantly launch and enjoy a variety of engaging games directly in your browser—no downloads or installations needed. Dive into a seamless gaming experience designed for fun and accessibility, all powered by modern web technologies.
-
-{{< cards >}}
-  {{< card link="/bounce-mallow" title="Bounce Mallow" image="/images/thumbbouncemallow.webp" subtitle="An exciting and fast-paced endless platformer where you control a bouncy marshmallow navigating a series of perilous platforms." >}}
-  {{< card link="/tempo-stack" title="Tempo Stack" image="/images/thumbtempostack.webp" subtitle="An game where players control a moving block, with the objective of stacking each new block on top of the previous one." >}}
-{{< /cards >}}
-
-## About Us
 
 We believe games should be accessible and appropriate for everyone. Our library is carefully curated to ensure every title maintains a high standard of simplicity in gameplay and content, so parents can feel confident and players of any age can find something to enjoy. LyteCade exists for the pure enjoyment of gaming—not to drive sales or capture your wallet, but to offer a genuine space where play is valued for its own sake.
 
