@@ -1,6 +1,21 @@
-[submodule "static/modules/tempo-stack"]
-	path = static/modules/tempo-stack
-	url = https://github.com/lytecade/tempo-stack.git
-[submodule "static/modules/bounce-mallow"]
-	path = static/modules/bounce-mallow
+[submodule "static/builds/bounce-mallow"]
+	path = static/builds/bounce-mallow
 	url = https://github.com/lytecade/bounce-mallow.git
+[submodule "static/builds/prism-panic"]
+	path = static/builds/prism-panic
+	url = https://github.com/lytecade/prism-panic.git
+[submodule "static/builds/ikonoku"]
+	path = static/builds/ikonoku
+	url = https://github.com/lytecade/ikonoku.git
+[submodule "static/builds/cyber-breaker"]
+	path = static/builds/cyber-breaker
+	url = https://github.com/lytecade/cyber-breaker.git
+[submodule "static/builds/cyber-stack"]
+	path = static/builds/cyber-stack
+	url = https://github.com/lytecade/cyber-stack.git
+[submodule "static/builds/syndicate-sky-3884"]
+	path = static/builds/syndicate-sky-3884
+	url = https://github.com/lytecade/syndicate-sky-3884.git
+[submodule "static/builds/rubix"]
+	path = static/builds/rubix
+	url = https://github.com/lytecade/rubix.git

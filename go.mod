@@ -1,5 +1,5 @@
 module github.com/lytecade/lytecade
 
-go 1.24.4
+go 1.27.4
 
-require github.com/imfing/hextra v0.11.1 // indirect
+require github.com/dylanhernandez/lytestoa v1.0.2 // indirect
