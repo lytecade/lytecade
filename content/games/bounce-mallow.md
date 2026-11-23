@@ -11,6 +11,7 @@ playable: true
 aspect_ratio: "16/9"
 
 cover:
+  image: "/images/tn_bouncemallow.webp"
   alt: "Bounce Mallow screenshot"
   caption: "Bounce Mallow — endless procedural auto-runner"
 

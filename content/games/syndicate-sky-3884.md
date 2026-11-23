@@ -11,6 +11,7 @@ playable: true
 aspect_ratio: "1/1"
 
 cover:
+  image: "/images/tn_syndicatesky.webp"
   alt: "Syndicate Sky 3884 screenshot"
   caption: "Syndicate Sky 3884 — retro sci-fi space shooter"
 

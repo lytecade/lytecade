@@ -11,6 +11,7 @@ playable: true
 aspect_ratio: "16/9"
 
 cover:
+  image: "/images/tn_prismpanic.webp"
   alt: "Prism Panic screenshot"
   caption: "Prism Panic — arcade memory match"
 

@@ -11,6 +11,7 @@ playable: true
 aspect_ratio: "16/9"
 
 cover:
+  image: "/images/tn_rubix.webp"
   alt: "Rubix screenshot"
   caption: "Rubix — cyberpunk arcade cube solver"
 

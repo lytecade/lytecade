@@ -11,6 +11,7 @@ playable: true
 aspect_ratio: "16/9"
 
 cover:
+  image: "/images/tn_ikonoku.webp"
   alt: "Ikonoku screenshot"
   caption: "Ikonoku — cyberpunk color Sudoku"
 

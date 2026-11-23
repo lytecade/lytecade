@@ -11,6 +11,7 @@ playable: true
 aspect_ratio: "16/9"
 
 cover:
+  image: "/images/tn_cyberstack.webp"
   alt: "CyberStack screenshot"
   caption: "CyberStack — cyberpunk tower stacker"
 

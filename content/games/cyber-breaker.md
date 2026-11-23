@@ -11,6 +11,7 @@ playable: true
 aspect_ratio: "16/9"
 
 cover:
+  image: "/images/tn_cyberbreaker.webp"
   alt: "CyberBreaker screenshot"
   caption: "CyberBreaker — neon brick breaker"
 
