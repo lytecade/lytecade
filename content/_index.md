@@ -1,12 +1,14 @@
 ---
 title: "LyteCade"
 hero_title: "Explore Free & Open Source HTML5 Games"
-tagline: "LyteCade is a curated collection of family-friendly HTML5 games designed for quick, uninterrupted play with zero ads or distractions."
+tagline: "Discover a curated collection of fun, free, and open-source HTML5 games—ready for instant, ad-free browser play across all your devices."
 games_title: "Our Games"
 about_title: "About Us"
-description: "LyteCade is a curated collection of fun, interactive, and completely free-to-play open source HTML5 games."
+description: "Play fun, free, and open-source HTML5 games online at LyteCade. Enjoy curated, ad-free browser games built for instant play on desktop and mobile."
 ---
 
-We believe games should be accessible and appropriate for everyone. Our library is carefully curated to ensure every title maintains a high standard of simplicity in gameplay and content, so parents can feel confident and players of any age can find something to enjoy. LyteCade exists for the pure enjoyment of gaming—not to drive sales or capture your wallet, but to offer a genuine space where play is valued for its own sake.
+At LyteCade, we believe great games should be accessible, transparent, and enjoyable for everyone. Our growing library of free, open-source HTML5 games is thoughtfully curated for crisp gameplay, intuitive controls, and family-friendly fun—so players of all ages can jump right in with confidence.
 
-Our mission is clear: bring back the joy of gaming for its own sake, creating a safe and delightful environment that welcomes everyone. Whether you have a minute or an hour, LyteCade is here when you need a quick, straightforward, and satisfying play session—no strings attached.
+Every title on LyteCade runs directly in your web browser with no downloads, no installations, and zero intrusive ads or microtransactions. Whether you are looking for a quick puzzle break on desktop or an arcade challenge on mobile, our cross-platform browser games are built for instant, uninterrupted play.
+
+Driven by a passion for open-source development and the pure joy of gaming, LyteCade is a welcoming space where play comes first. Explore our collection, enjoy a satisfying session anytime, or inspect the source code behind the games—no strings attached.
