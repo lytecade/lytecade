@@ -4,7 +4,7 @@ slug: "rubix"
 date: 2026-11-23T12:00:00-05:00
 draft: false
 weight: 7
-description: "Rubix is an arcade-style Rubik's cube solver with a cyberpunk theme, 3D orbit controls, and persistent best times."
+description: "Rubix is an arcade-style Rubik's cube solver, 3D orbit controls, and persistent best times."
 summary: "Rotate cube slices directly in 3D perspective, orbit the camera 360°, and solve all six faces to set a browser best time."
 
 playable: true
@@ -13,10 +13,10 @@ aspect_ratio: "16/9"
 cover:
   image: "/images/tn_rubix.webp"
   alt: "Rubix screenshot"
-  caption: "Rubix — cyberpunk arcade cube solver"
+  caption: "Rubix — arcade cube solver"
 
 genres: ["Puzzle"]
-tags: ["html5", "canvas", "cyberpunk", "open-source"]
+tags: ["html5", "canvas", "open-source"]
 developer: "LyteCade"
 engine: "HTML5 Canvas / Vanilla JS"
 repo_url: "https://github.com/lytecade/rubix"
@@ -32,6 +32,6 @@ controls:
 
 ## About this game
 
-Rubix is a cyberpunk-themed Rubik's cube solver built completely from scratch in pure HTML5 Canvas and vanilla JavaScript with zero external libraries or assets.
+Rubix is a Rubik's cube solver built completely from scratch in pure HTML5 Canvas and vanilla JavaScript with zero external libraries or assets.
 
 Each run starts with a freshly scrambled cube at an angular 35° perspective. Drag directly on any cubie face to turn rows or columns, freely orbit the camera around the cube, and race the timer from your first move—your best times and move records persist in your browser.

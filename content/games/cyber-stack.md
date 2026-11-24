@@ -4,8 +4,8 @@ slug: "cyber-stack"
 date: 2026-11-23T12:00:00-05:00
 draft: false
 weight: 5
-description: "CyberStack is a fast-paced cyberpunk tower-stacking HTML5 game where precision timing builds the highest tower."
-summary: "Drop sliding neon slabs in time to build the tallest cyberpunk tower as mistimed overhangs get sliced away."
+description: "CyberStack is a fast-paced tower-stacking HTML5 game where precision timing builds the highest tower."
+summary: "Drop sliding neon slabs in time to build the tallest tower as mistimed overhangs get sliced away."
 
 playable: true
 aspect_ratio: "16/9"
@@ -13,10 +13,10 @@ aspect_ratio: "16/9"
 cover:
   image: "/images/tn_cyberstack.webp"
   alt: "CyberStack screenshot"
-  caption: "CyberStack — cyberpunk tower stacker"
+  caption: "CyberStack — Tower stacker"
 
 genres: ["Arcade"]
-tags: ["html5", "canvas", "cyberpunk", "stacker", "open-source"]
+tags: ["html5", "canvas", "stacker", "open-source"]
 developer: "LyteCade"
 engine: "HTML5 Canvas / Vanilla JS"
 repo_url: "https://github.com/lytecade/cyber-stack"
