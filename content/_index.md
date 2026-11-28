@@ -1,14 +1,12 @@
 ---
 title: "LyteCade"
-hero_title: "Explore Free & Open Source HTML5 Games"
-tagline: "Discover a curated collection of fun, free, and open-source HTML5 games—ready for instant, ad-free browser play across all your devices."
+hero_title: "Explore Fun HTML5 Games"
+tagline: "Play fun, free HTML5 games right in your browser—on desktop or mobile."
 games_title: "Our Games"
 about_title: "About Us"
-description: "Play fun, free, and open-source HTML5 games online at LyteCade. Enjoy curated, ad-free browser games built for instant play on desktop and mobile."
+description: "Play fun, free-to-play HTML5 games online at LyteCade. Enjoy instant browser gaming on desktop and mobile."
 ---
 
-At LyteCade, we believe great games should be accessible, transparent, and enjoyable for everyone. Our growing library of free, open-source HTML5 games is thoughtfully curated for crisp gameplay, intuitive controls, and family-friendly fun—so players of all ages can jump right in with confidence.
+LyteCade is a curated showcase of fun, free-to-play HTML5 games for everyone. Whether you're looking for a quick puzzle break or an arcade challenge, our games are built for instant play right in your browser—no downloads or installations needed.
 
-Every title on LyteCade runs directly in your web browser with no downloads, no installations, and zero intrusive ads or microtransactions. Whether you are looking for a quick puzzle break on desktop or an arcade challenge on mobile, our cross-platform browser games are built for instant, uninterrupted play.
-
-Driven by a passion for open-source development and the pure joy of gaming, LyteCade is a welcoming space where play comes first. Explore our collection, enjoy a satisfying session anytime, or inspect the source code behind the games—no strings attached.
+Jump in on desktop or mobile and enjoy a growing collection of approachable, family-friendly titles. Everything is open source, too, if you ever want to peek under the hood.
