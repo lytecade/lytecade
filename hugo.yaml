@@ -18,15 +18,15 @@ taxonomies:
   tag: tags
 
 params:
-  subtitle: "Free & Open Source HTML5 Games"
-  description: "LyteCade is a curated collection of fun, interactive, and completely free-to-play open source HTML5 games."
+  subtitle: "Free & Source-Available HTML5 Games"
+  description: "LyteCade is a curated collection of fun, interactive, and completely free-to-play source-available HTML5 games."
   tagline: "LyteCade is a curated collection of HTML5 games dedicated to providing a truly ad-free and purchase-free gaming experience."
   use_logo: true
   logo: "logo.webp"
   logo_text: ""
   og_image: "logo.webp"
   github_url: "https://github.com/lytecade"
-  footer_text: "Website design and branding of lytecade.com copyrighted by Dylan Hernandez. Developed by Dylan Hernandez."
+  footer_text: "© 2026 Dylan Hernandez. All rights reserved. Website design, branding, and development of lytecade.com by Dylan Hernandez."
 
 menus:
   main:
