@@ -16,7 +16,7 @@ cover:
   caption: "Ikonoku — Color Sudoku"
 
 genres: ["Puzzle"]
-tags: ["html5", "canvas", "sudoku", "open-source"]
+tags: ["puzzle", "sudoku", "logic", "arcade"]
 developer: "LyteCade"
 engine: "HTML5 Canvas / Vanilla JS"
 repo_url: "https://github.com/lytecade/ikonoku"

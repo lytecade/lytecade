@@ -16,7 +16,7 @@ cover:
   caption: "Prism Panic — arcade memory match"
 
 genres: ["Puzzle", "Arcade"]
-tags: ["html5", "canvas", "memory", "open-source"]
+tags: ["puzzle", "arcade", "memory", "card-game"]
 developer: "LyteCade"
 engine: "HTML5 Canvas / Vanilla JS"
 repo_url: "https://github.com/lytecade/prism-panic"

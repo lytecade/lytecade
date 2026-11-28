@@ -16,7 +16,7 @@ cover:
   caption: "CyberStack — Tower stacker"
 
 genres: ["Arcade"]
-tags: ["html5", "canvas", "stacker", "open-source"]
+tags: ["arcade", "stacker", "timing", "neon"]
 developer: "LyteCade"
 engine: "HTML5 Canvas / Vanilla JS"
 repo_url: "https://github.com/lytecade/cyber-stack"

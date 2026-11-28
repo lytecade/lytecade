@@ -16,7 +16,7 @@ cover:
   caption: "Syndicate Sky 3884 — retro sci-fi space shooter"
 
 genres: ["Shooter", "Arcade"]
-tags: ["html5", "canvas", "cyberpunk", "space-shooter", "open-source"]
+tags: ["shooter", "arcade", "space-shooter", "sci-fi", "cyberpunk"]
 developer: "LyteCade"
 engine: "HTML5 Canvas / Vanilla JS"
 repo_url: "https://github.com/lytecade/syndicate-sky-3884"

@@ -16,7 +16,7 @@ cover:
   caption: "Rubix — arcade cube solver"
 
 genres: ["Puzzle"]
-tags: ["html5", "canvas", "open-source"]
+tags: ["puzzle", "rubiks-cube", "3d", "logic"]
 developer: "LyteCade"
 engine: "HTML5 Canvas / Vanilla JS"
 repo_url: "https://github.com/lytecade/rubix"

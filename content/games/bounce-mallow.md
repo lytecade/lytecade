@@ -16,7 +16,7 @@ cover:
   caption: "Bounce Mallow — endless procedural auto-runner"
 
 genres: ["Platformer", "Arcade"]
-tags: ["html5", "canvas", "endless-runner", "open-source"]
+tags: ["platformer", "arcade", "endless-runner", "procedural"]
 developer: "LyteCade"
 engine: "HTML5 Canvas / Vanilla JS"
 repo_url: "https://github.com/lytecade/bounce-mallow"

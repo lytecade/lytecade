@@ -16,7 +16,7 @@ cover:
   caption: "CyberBreaker — neon brick breaker"
 
 genres: ["Arcade"]
-tags: ["html5", "canvas", "brick-breaker", "open-source"]
+tags: ["arcade", "brick-breaker", "neon", "retro"]
 developer: "LyteCade"
 engine: "HTML5 Canvas / Vanilla JS"
 repo_url: "https://github.com/lytecade/cyber-breaker"
